@@ -1,0 +1,52 @@
+/* =========================================================
+   Estilos Customizados - Calculadora IFPI Campus Paulistana
+   ========================================================= */
+
+:root {
+  --ifpi-green: #006633;
+  --ifpi-darkgreen: #004d26;
+  --ifpi-red: #cb2c30;
+  --ifpi-light: #f2f8f4;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Cores institucionais do IFPI */
+.bg-ifpi-green {
+  background-color: var(--ifpi-green);
+}
+
+.text-ifpi-green {
+  color: var(--ifpi-green);
+}
+
+.hover\:bg-ifpi-darkgreen:hover {
+  background-color: var(--ifpi-darkgreen);
+}
+
+/* Barra de rolagem personalizada para o Modal */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f5f9;
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Suavização de transições de modais */
+#subject-modal {
+  transition: opacity 0.2s ease-in-out;
+}
